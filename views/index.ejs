@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mail</title>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <label for="pengirim">Pengirim</label><br>
+      <input type="text" name="pengirim" value=""><br>
+      <label for="penerima">Penerima</label><br>
+      <input type="text" name="penerima" value=""><br>
+      <label for="subject">Subject</label><br>
+      <input type="text" name="subject" value=""><br>
+      <label for="isi">Isi</label><br>
+      <textarea name="isi" rows="8" cols="80" name="isi"></textarea><br>
+      <button type="submit">Submit!</button>
+    </form>
+
+    <p><%= status %></p>
+  </body>
+</html>
